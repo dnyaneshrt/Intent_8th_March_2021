@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/country_picker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/et_mobile_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.80"
+        android:layout_margin="5dp"
+        android:hint="Enter mobile number"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dial"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter your name"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="myActivity"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_hotstar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hotstar"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_daily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="news"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="facebook"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>
